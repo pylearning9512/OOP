@@ -1,6 +1,6 @@
 this is the prototype for a text based game based on steven universe. i will be using OOP for this project.
 
-##goals:##
+goals:
     -gem class with some gem object instances in the file gems.py  (implemented but needs some work) 
     
     -weapon class (whip, spear, sword, etc) with a subclass for the gem that weilds it (for example amethyst has a whip with 
