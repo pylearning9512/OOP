@@ -1,12 +1,9 @@
 import time 
 from gems import * 
 
+#text game in development, no game loop yet, this is basic testing of the gem objects and the attack/fuse methods
 
-#testing how to print the available gems, this will be a character selection one day
-for k, v in gems.items():
-    print(gems[v])
 
-#these print statements are testing the imported "gems.py" file by calling some methods between gems
 print(f'{jasper.attack(amethyst)}')
 time.sleep(5)
 

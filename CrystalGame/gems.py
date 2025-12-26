@@ -8,15 +8,8 @@ class Gem:
         self.health=health
 
     def fuse(self,partner):
-        
-        fusion_components= {
-            'opal':["amethyst", "pearl"],
-            "sugulite":["amethyst","garnet"]
-            }
         self.partner=partner
         
-        if partner and self.name in fusion_components:
-            return fusion[name]
         return f"{self.name} and {self.partner} have fused!"
 
     
@@ -78,12 +71,6 @@ jasper=Gem(
 )
 
 
-gems={
-    'pearl':pearl.name,
-    'amethyst':amethyst.name,
-    'ruby':ruby.name,
-    'sapphire':sapphire.name,
-    'jasper':jasper.name}
 
 
 
